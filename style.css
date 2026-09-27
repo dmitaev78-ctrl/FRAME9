@@ -3,3 +3,49 @@
 .donate-link{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;background:#e7efd9;color:#30451e;border:1px solid #bdcea6;border-radius:8px;padding:11px 15px;font-size:14px;font-weight:600;line-height:1.4;text-align:center}.donate-link:hover{background:#d9edbb}.support{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:30px;background:#edf2e5}.support p{margin:9px 0 0;font-size:14px;line-height:1.6;color:#616d55}.support .donate-link{flex-shrink:0}@media(max-width:750px){.support{align-items:stretch;flex-direction:column;gap:16px}header{gap:12px}.donate-link{font-size:14px;padding:9px 12px}}
 
 input[type=text]{width:100%;min-width:0;min-height:48px;border:1px solid #dce0d4;border-radius:7px;background:#fbfcf9;padding:12px;color:#272d24;font-size:14px}.mode-hint{margin-bottom:20px}.shot-card{padding:18px 0;border-top:1px solid #e1e5da;margin-top:18px}.shot-card h3{font-size:16px;margin:0}.shot-card .grid{margin-top:14px}.shot-card>label{margin-top:15px}.shot-card p{font-size:13px;color:#65705b;line-height:1.5;margin:8px 0}.shot-card .pose-label{font-weight:400;font-size:13px}.shot-card input{margin-bottom:4px}#shotOutputFields{margin:20px 0}#shotOutputFields label{color:#dce7d2}#shotOutputFields select{background:#30382b;color:#edf5e5;border-color:#647059}@media(max-width:400px){.shot-card .two,#singleAngleFields{grid-template-columns:1fr}}
+
+/* Improved phone layout */
+@media(max-width:600px){
+  :root{font-size:15px}
+  header{height:60px;padding:0 16px}
+  .brand{font-size:21px;gap:9px}
+  .logo{width:30px;height:32px;font-size:21px}
+  main{padding:20px 12px 0}
+  .heading{margin-bottom:18px}
+  .eyebrow{font-size:10px;letter-spacing:1.5px}
+  h1{font-size:26px;line-height:1.15;letter-spacing:-.8px;margin-top:9px}
+  .heading p{font-size:13px;line-height:1.55;margin-top:12px}
+  .workspace{gap:12px}
+  section{padding:16px;border-radius:10px;margin-bottom:12px}
+  .section-title{margin-bottom:16px;gap:9px}
+  h2{font-size:16px}
+  .number{padding:5px}
+  .grid.two{grid-template-columns:1fr;gap:12px}
+  .ratios{grid-template-columns:repeat(2,1fr);gap:7px}
+  .ratios button{min-height:44px;padding:9px 4px}
+  .segmented{margin-bottom:15px}
+  .chips{margin-top:12px}
+  textarea,select,input[type=text]{font-size:16px}
+  .generate,.copy{padding:14px 16px}
+  aside{padding:17px;border-radius:11px}
+  .result-top h2{font-size:19px}
+  .live{font-size:10px;padding:6px 8px}
+  .viewfinder{height:155px;margin:18px 0 16px;padding:13px}
+  .frame{height:94px;max-width:88%}
+  .cross{font-size:18px}
+  #ratioLabel{font-size:10px;bottom:5px;right:6px}
+  .frame-meta{font-size:8px;letter-spacing:.8px}
+  .output-tools{align-items:flex-start;gap:8px}
+  .output-tabs button{padding:7px 9px;font-size:12px}
+  #output{height:285px;padding:13px;font-size:12px;line-height:1.65}
+  footer{margin-top:24px;padding:18px 4px}
+}
+@media(max-width:360px){
+  main{padding-left:9px;padding-right:9px}
+  section,aside{padding:14px}
+  h1{font-size:23px}
+  .viewfinder{height:142px;padding:11px}
+  .frame{height:82px}
+  .frame-meta{font-size:7px}
+  .output-tabs button{padding:6px 7px;font-size:11px}
+}
